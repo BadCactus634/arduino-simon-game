@@ -1,4 +1,15 @@
-# arduino-simon-game
+# Arduino Simon Game
+<img eng>
+Let's recreate the good-old Simon game with Arduino!
+
+If you look at the code (which you can find in the above file list) you will see an array that stores the correct (random) sequence which has been picked up at start.
+Additional numbers will be added based on the level number you are at: the first level has only 4 numbers (you can call them "extraction" if you wish), second one has 6 and third has 8 numbers.
+Every number refer to the pin number of one of the colored LEDs.
+There's also a buzzer that plays a specific tone for every color, a tone error when the player push the wrong button in the input sequence, and a victory tone in case of... well, victory! This tone is played when you reach and finish the third level.
+
+The file comments are in italian but a version with english text is on the way.
+
+<img ita>
 Ricreiamo il vecchio gioco Simon con Arduino!
 
 C'è un array che tiene in memoria la sequenza corretta, alla quale vengono aggiunte due nuove estrazioni ogni volta che si sale di livello.
