@@ -1,5 +1,7 @@
 # Arduino Simon Game
-<img eng>
+
+![download](https://github.com/BadCactus634/arduino-simon-game/assets/68558172/6eca333d-fccf-4525-a801-eb02e43261e2)
+
 Let's recreate the good-old Simon game with Arduino!
 
 If you look at the code (which you can find in the above file list) you will see an array that stores the correct (random) sequence which has been picked up at start.
